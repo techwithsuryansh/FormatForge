@@ -241,9 +241,9 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 ---
 
 <div align="center">
-  <p>Built with ❤️ by <a href="https://github.com/yourusername">Suryansh</a></p>
+  <p>Built with ❤️ by <a href="https://github.com/techwithsuryansh">Suryansh</a></p>
   <p>
-    <a href="https://github.com/yourusername/formatforge/issues">Report a Bug</a> •
-    <a href="https://github.com/yourusername/formatforge/issues">Request a Feature</a>
+    <a href="https://github.com/techwithsuryansh/formatforge/issues">Report a Bug</a> •
+    <a href="https://github.com/techwithsuryansh/formatforge/issues">Request a Feature</a>
   </p>
 </div>
