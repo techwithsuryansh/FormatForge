@@ -3,7 +3,7 @@ from PIL import Image
 from fpdf import FPDF
 import os, io, tempfile
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="public", static_url_path="")
 
 UPLOAD_FOLDER = tempfile.gettempdir()
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
