@@ -13,7 +13,7 @@
 
 <p>
   <a href="format-forge-azure.vercel.app">
-    <img src="https://img.shields.io/badge/ Live Demo-suryansh.pythonanywhere.com-orange?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/ Live Demo-format-forge-azure.vercel.app-orange?style=for-the-badge"/>
   </a>
 </p>
 
