@@ -1,5 +1,4 @@
-Flask
-Pillow
+flask
+pillow
 fpdf2
-python-docx
-pytesseract
+pypdfium2
