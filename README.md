@@ -12,9 +12,9 @@
 </p>
 
 <p>
-  <a href="format-forge-azure.vercel.app">
-    <img src="https://img.shields.io/badge/ Live Demo-format-forge-azure.vercel.app-orange?style=for-the-badge"/>
-  </a>
+  <a href="https://format-forge-azure.vercel.app">
+    <img src="https://img.shields.io/badge/Live_Demo-format--forge--azure.vercel.app-orange?style=for-the-badge"/>
+</a>
 </p>
 
 <p>
