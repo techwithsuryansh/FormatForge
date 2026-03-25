@@ -56,7 +56,7 @@ def convert():
     file.save(filepath)
 
     output   = io.BytesIO()
-    img      = None   # track open objects so we can close before delete
+    img      = None   
     pdf      = None
 
     try:
@@ -144,7 +144,7 @@ def convert():
             if os.path.exists(filepath):
                 os.remove(filepath)
         except PermissionError:
-            pass   # Windows sometimes holds the lock briefly — skip silently
+            pass   
 
 
 if __name__ == "__main__":
