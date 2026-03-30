@@ -17,27 +17,19 @@
 </a>
 </p>
 
-<p>
-  <a href="#-features">Features</a> •
-  <a href="#-getting-started">Getting Started</a> •
-  <a href="#-supported-conversions">Conversions</a> •
-  <a href="#-deployment">Deployment</a> •
-  <a href="#-roadmap">Roadmap</a>
-</p>
-
 </div>
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 **FormatForge** is a web-based file conversion tool that lets you convert between image and document formats without any sign-up, no cloud uploads, and no third-party services. Everything runs locally on your own machine or server.
 
-> 🌙 Supports **dark & light theme** with preference saved in `localStorage`
+>  Supports **dark & light theme** with preference saved in `localStorage`
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
@@ -51,7 +43,7 @@
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 /
@@ -72,58 +64,6 @@
 ```
 
 ---
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.10+
-- pip
-- Poppler (required for PDF → Image conversion)
-
-```bash
-# Ubuntu / Debian
-sudo apt install poppler-utils
-
-# macOS
-brew install poppler
-
-# Windows — download from https://github.com/oschwartz10612/poppler-windows
-```
-
-### Installation
-
-**1. Clone the repo**
-```bash
-git clone https://github.com/yourusername/formatforge.git
-cd formatforge
-```
-
-**2. Create a virtual environment**
-```bash
-python -m venv venv
-
-# Linux / macOS
-source venv/bin/activate
-
-# Windows
-venv\Scripts\activate
-```
-
-**3. Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-**4. Run the development server**
-```bash
-python app.py
-```
-
-Open **http://127.0.0.1:5000** in your browser. 🎉
-
----
-
 ## 🔧 Supported Conversions
 
 | Input format | Output format | Status |
@@ -137,7 +77,7 @@ Open **http://127.0.0.1:5000** in your browser. 🎉
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```txt
 flask
@@ -147,54 +87,10 @@ pdf2image
 gunicorn
 ```
 
-Install manually:
-```bash
-pip install flask pillow fpdf2 pdf2image gunicorn
-```
-
+---
 ---
 
-## 🌐 Deployment
-
-###  PythonAnywhere — Free, never sleeps (recommended)
-
-1. Sign up at [pythonanywhere.com](https://www.pythonanywhere.com)
-2. Open a **Bash console** and clone your repo:
-   ```bash
-   git clone https://github.com/yourusername/formatforge.git
-   ```
-3. Go to the **Web** tab → Add new web app → Manual config → Python 3.12
-4. Set the source directory to `/home/yourusername/formatforge`
-5. Edit the **WSGI config file**:
-   ```python
-   import sys
-   sys.path.insert(0, '/home/yourusername/formatforge')
-   from app import app as application
-   ```
-6. Click **Reload** — live at `yourusername.pythonanywhere.com` 🚀
-
----
-
-### 🚄 Railway
-
-1. Install the CLI and login:
-   ```bash
-   npm install -g @railway/cli
-   railway login
-   ```
-2. Deploy:
-   ```bash
-   railway init
-   railway up
-   ```
-3. Make sure `Procfile` exists in your root:
-   ```
-   web: gunicorn app:app
-   ```
-
----
-
-## 🛠️ Roadmap
+##  Roadmap
 
 - [x] Image → PDF conversion
 - [x] PDF → Image conversion
@@ -209,7 +105,7 @@ pip install flask pillow fpdf2 pdf2image gunicorn
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how to get started:
 
