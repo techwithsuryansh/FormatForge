@@ -13,7 +13,7 @@
 
 <p>
   <a href="https://formatforge-live.vercel.app">
-    <img src="https://img.shields.io/badge/Live_Demo-format--forge--azure.vercel.app-orange?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Live_Demo-formatforge--live.vercel.app-orange?style=for-the-badge"/>
 </a>
 </p>
 
